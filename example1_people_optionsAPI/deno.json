@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": [ "esnext", "DOM" ],
+  },
+
+  "imports": {
+    "my_vue_import_symbol": "npm:vue@3.5.13/dist/vue.esm-browser.js",
+  },
+
+  "tasks": {
+    "tailwind": "deno run -A npm:tailwindcss@^3.4.17 --config=./tailwind.config.js --output=./wwwroot/styles.css",
+  },
+}
